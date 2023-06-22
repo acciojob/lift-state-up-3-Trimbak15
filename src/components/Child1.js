@@ -2,7 +2,7 @@ import React from "react";
 
 const Child1 = ({setSelectedOption}) => {
     function handleClick(){
-        setSelectedOption('option 1');
+        setSelectedOption('Option 1');
     }
 
     return(

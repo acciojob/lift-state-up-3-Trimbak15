@@ -3,7 +3,7 @@ import React from "react";
 const Child2 = ({setSelectedOption}) =>{
 
     function handleClick(){
-        setSelectedOption("option 2");
+        setSelectedOption("Option 2");
     }    
     return (
         <div className="child2">
