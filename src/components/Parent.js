@@ -15,7 +15,7 @@ const Parent = () =>{
             <h1>Parent Component</h1>
             <Child1 setSelectedOption={handleChange}/>
             <Child2 setSelectedOption={handleChange}/>
-            <p>Selected option: {selectedoption}</p>
+            <p>Selected Option: {selectedoption}</p>
         </div>
     )
 }
